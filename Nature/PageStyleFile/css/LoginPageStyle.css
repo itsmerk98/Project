@@ -1,0 +1,77 @@
+
+body {
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right bottom,#86f372b3, #37f1b3b3), url(./video-1.mp4);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: default;
+}
+
+.navigation-loginpage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.loginPage-logo {
+    height: 100%;
+    width: 60%;
+}
+
+.login {
+    width: 5%;
+    margin: auto;
+}
+
+.registration {
+    width: 20%;
+    margin: auto;
+}
+
+.main {
+    height: 100%;
+    width: 25%;
+    margin: 3rem auto;
+    background: linear-gradient(to right bottom,#86f372b3, #37f1b3b3);
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.profile {
+    width: 7rem;
+    height: 7rem;
+    margin: 2rem auto;
+    border-radius: 50%;
+    background-image: url(../image/loginLogo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.index {
+    padding: 20px;
+}
+
+label {
+    color: #000000;
+}
+
+input {
+    padding: 10px;
+    padding-top: 0;
+    width: 100%;
+    background: #48e98b3b;
+    border: 1px solid;
+    outline: none;
+}
+.btn-submit {
+    width: 52%;
+    margin: auto;
+}
+
+.username{
+    margin-bottom: 10px;
+}

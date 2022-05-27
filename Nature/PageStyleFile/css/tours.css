@@ -1,0 +1,13 @@
+
+
+.card-picture-4 {
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730),url(../image/waterFale.jpg);
+}
+
+.card-picture-5 {
+    background-image: linear-gradient(to right bottom, #86f372b3, #37f1b3b3),url(../image/hqdefault.jpg);
+}
+
+.card-picture-6 {
+    background-image: linear-gradient(to right bottom, #2997ffd9, #5442fad9),url('../image/shedding.jpg');
+}

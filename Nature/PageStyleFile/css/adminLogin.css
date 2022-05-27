@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+form{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.admin-panel-login {
+    width: 55vh;
+    height: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .3);
+}
+.admin-panel {
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+.apl-head {
+    margin: auto;
+}
+
+.input-filed {
+    width: 100%;
+    height: 50%;
+}
+.user{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.user-icon{
+    margin: auto 10px;
+    font-size: 1.3rem;
+    margin-left: 20px;
+}
+
+.input-fild {
+    width: 95%;
+    height: 80%;
+    margin: auto;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+.button-login{
+    width: 100%;
+    height: 25%;
+    display: flex;
+}
+.remind{
+    width: 55%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+.remind-sec{
+    width: 10%;
+    height: auto;
+    margin: auto;
+    margin-left: 20px;
+}
+#remind-pass {
+    height: 15px;
+    width: 100%;   
+}
+.remind > label {
+    margin: auto;
+    margin-left: 5px;
+}
+.login{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    font-weight: bold;
+}
+.login-btn {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f33;
+    font-size: large;
+    color: #fff;
+    border: 1px solid red;
+    cursor: pointer;
+}

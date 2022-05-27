@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    /*background: linear-gradient(to right bottom,rgba(134, 243, 114, 0.7) , hsla(160, 87%, 58%, 0.7));*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content {
+    width: 60%;
+    height: 100%;
+    background-image: url('../image/signIn/panorama.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.signin-sec{
+    width: 320px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.514);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.ss-content{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    
+}
+.header-sec{
+    padding: 20px;
+    text-align: center;
+}
+.heading-name{
+    margin-bottom: 10px;
+}
+
+.username-sec, .password-sec {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    outline: none;
+    margin-bottom: 15px;
+}
+.remember-sec{
+    font-size: large;
+    display: flex;
+    font-size: 16px;
+}
+#CheckBox1 {
+    width: 17px;
+    height: 24px;
+}
+label{
+    margin-left: 10px;
+}
+.remember-sec a{
+    margin: auto;
+    text-decoration: none;
+    margin-right: 0;
+}
+.sign-in-btn{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 15px;
+    border-color: rgb(31, 230, 31);
+    color: #fff;
+    background-color: rgb(18, 177, 3);
+}
+.sign-in:hover{
+    background-color: rgb(21, 255, 0);
+    transition: .2s ease-in-out;
+}
+.or{
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+.or p{
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.sign-in-btn i{
+    margin-right: 20px;
+}
+.google-btn{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-color: rgb(119, 7, 7);
+    background-color: rgb(255, 0, 0);
+    cursor: not-allowed;
+}
+.instagram-btn {
+    background-color: #405DE6;
+    border-color: rgb(31, 3, 155);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    cursor: not-allowed;
+}
+.google-btn .instagram-btn:hover{
+    cursor: not-allowed;
+}
+.add-ac {
+    display: flex;
+    flex-direction: column;
+}
+.add-ac-p{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.add-ac-p a{
+    text-decoration: none;
+}
+.add-ac-p a:hover{
+    text-decoration: underline;
+}
+.back{
+    margin: auto;
+    display: flex;
+    padding-bottom: 20px;
+}
+.back a{
+    margin: auto;
+}
+.sign-up-sec{
+    width: 320px;
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.521);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.content-sign-in{
+    width: 60%;
+    height: 100%;
+    background-image: url(./mother-g.jpg);
+    background-position: center;
+    background-size: cover;
+    /* float: right; */
+}
+.back-btn {
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+}
+.back-btn a {
+    margin: auto;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    border: 5px solid #e4e4e4;
+    box-shadow: 0 0 80px rgb(0, 0, 0);
+}
+   
